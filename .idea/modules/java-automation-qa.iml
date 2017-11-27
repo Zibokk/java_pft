@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module external.linked.project.id="java-automation-qa" external.linked.project.path="$MODULE_DIR$/../../java-automation-qa" external.root.project.path="$MODULE_DIR$/../../java-automation-qa" external.system.id="GRADLE" external.system.module.group="java.framework" external.system.module.version="1.0-SNAPSHOT" type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$/../../java-automation-qa">
+      <excludeFolder url="file://$MODULE_DIR$/../../java-automation-qa/.gradle" />
+      <excludeFolder url="file://$MODULE_DIR$/../../java-automation-qa/build" />
+      <excludeFolder url="file://$MODULE_DIR$/../../java-automation-qa/out" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>
