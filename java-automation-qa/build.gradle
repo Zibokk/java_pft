@@ -2,6 +2,8 @@ group 'java.framework'
 version '1.0-SNAPSHOT'
 
 apply plugin: 'java'
+apply plugin: 'application'
+mainClassName = "MyFirstProgram"
 
 sourceCompatibility = 1.8
 
