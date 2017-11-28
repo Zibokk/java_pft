@@ -7,24 +7,27 @@ public class MyFirstProgram {
         hello("java");
         hello("Nick");
 
-        double x = 5;
-        System.out.println("Result " + x + " = " + area(x));
+        Square s = new Square(5);
+//        s.l = 5;
+        System.out.println("Result " + s.l + " = " + s.area());
 
-        double a = 4;
-        double b = 5;
-        System.out.println("Result " + a + " and " + b + " = " + area2(a, b));
+
+        Rectangle r = new Rectangle(4, 5);
+//        r.a = 4;
+//        r.b = 5;
+        System.out.println("Result " + r.a + " and " + r.b + " = " + r.area2());
     }
 
     public static void hello(String somebody) {
         System.out.println("Hello, " + somebody + "!");
     }
 
-    public static double area(double l) {
-       return l * l;
-    }
+//    public static double area(Square s) {
+//       return s.l * s.l;
+//    }
 
-    public static double area2(double a, double b) {
-        return a * b;
-    }
+//    public static double area(Rectangle r) {
+//        return r.a * r.b;
+//    }
 
 }
