@@ -22,7 +22,7 @@ public class ContactCreationTests {
     }
     
     @Test
-    public void ContactCreationTests() {
+    public void testsContactCreation() {
         gotoContactPage();
         fillContactForm(new CotactData("Test", "QA", "Nick", "Test Address", "55555555555555", "test@gmail.com"));
         submitContactCreation();
