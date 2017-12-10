@@ -2,6 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/address-web-tests.iml" filepath="$PROJECT_DIR$/.idea/modules/address-web-tests.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/address-web-tests_main.iml" filepath="$PROJECT_DIR$/.idea/modules/address-web-tests_main.iml" group="address-web-tests" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/address-web-tests_test.iml" filepath="$PROJECT_DIR$/.idea/modules/address-web-tests_test.iml" group="address-web-tests" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/java-automation-qa.iml" filepath="$PROJECT_DIR$/.idea/modules/java-automation-qa.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/java-automation-qa_main.iml" filepath="$PROJECT_DIR$/.idea/modules/java-automation-qa_main.iml" group="java-automation-qa" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/java-automation-qa_test.iml" filepath="$PROJECT_DIR$/.idea/modules/java-automation-qa_test.iml" group="java-automation-qa" />
