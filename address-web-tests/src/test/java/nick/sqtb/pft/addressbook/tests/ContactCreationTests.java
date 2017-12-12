@@ -1,5 +1,6 @@
-package nick.sqtb.pft.addressbook;
+package nick.sqtb.pft.addressbook.tests;
 
+import nick.sqtb.pft.addressbook.model.CotactData;
 import org.openqa.selenium.firefox.FirefoxOptions;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.AfterMethod;
