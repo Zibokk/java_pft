@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="67f7b3bd-a1e2-4464-a4f2-f5180208ebab" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/address-web-tests/src/test/java/nick/sqtb/pft/addressbook/appmanager/ContactHelper.java" afterPath="$PROJECT_DIR$/address-web-tests/src/test/java/nick/sqtb/pft/addressbook/appmanager/ContactHelper.java" />
-    </list>
+    <list default="true" id="67f7b3bd-a1e2-4464-a4f2-f5180208ebab" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/java-automation-qa/.gradle/" />
     <ignored path="$PROJECT_DIR$/java-automation-qa/build/" />
     <ignored path="$PROJECT_DIR$/java-automation-qa/out/" />
@@ -79,8 +77,8 @@
       <file leaf-file-name="ContactModificationTests.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/address-web-tests/src/test/java/nick/sqtb/pft/addressbook/tests/ContactModificationTests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="8" column="43" lean-forward="false" selection-start-line="8" selection-start-column="43" selection-end-line="8" selection-end-column="43" />
+            <state relative-caret-position="150">
+              <caret line="11" column="60" lean-forward="true" selection-start-line="11" selection-start-column="60" selection-end-line="11" selection-end-column="60" />
               <folding />
             </state>
           </provider>
@@ -1328,9 +1326,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ContactDeletionTests - 2017.12.14 at 21h 33m 30s.xml">
-      <configuration name="ContactDeletionTests" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="ContactDeletionTests - 2017.12.14 at 21h 34m 42s.xml">
       <configuration name="ContactDeletionTests" configurationId="TestNG" />
     </history-entry>
@@ -1353,6 +1348,9 @@
       <configuration name="ContactModificationTests" configurationId="TestNG" />
     </history-entry>
     <history-entry file="ContactModificationTests - 2017.12.14 at 22h 49m 21s.xml">
+      <configuration name="ContactModificationTests" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="ContactModificationTests - 2017.12.14 at 22h 53m 39s.xml">
       <configuration name="ContactModificationTests" configurationId="TestNG" />
     </history-entry>
     <history-entry file="GroupModificationTests - 2017.12.14 at 22h 11m 34s.xml">
@@ -1835,8 +1833,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/address-web-tests/src/test/java/nick/sqtb/pft/addressbook/tests/ContactModificationTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="8" column="43" lean-forward="false" selection-start-line="8" selection-start-column="43" selection-end-line="8" selection-end-column="43" />
+        <state relative-caret-position="150">
+          <caret line="11" column="60" lean-forward="true" selection-start-line="11" selection-start-column="60" selection-end-line="11" selection-end-column="60" />
           <folding />
         </state>
       </provider>
