@@ -26,7 +26,7 @@ public class ContactHelper extends HelperBase {
     public void deleteContact() {
         click(By.name("selected[]"));
         click(By.xpath("//div[@id='content']/form[2]/div[2]/input"));
-        switchAlert();
+        isAlertPresent();
         click(By.linkText("home"));
     }
 

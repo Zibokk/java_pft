@@ -22,13 +22,9 @@ public class HelperBase {
         wd.findElement(locator).sendKeys(text);
     }
 
-    protected void switchAlert() {
-        wd.switchTo().alert().accept();
-    }
-
     public boolean isAlertPresent() {
         try {
-            wd.switchTo().alert();
+            wd.switchTo().alert().accept();
             return true;
         } catch (NoAlertPresentException e) {
             return false;
