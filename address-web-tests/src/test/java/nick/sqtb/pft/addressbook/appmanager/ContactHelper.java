@@ -29,4 +29,12 @@ public class ContactHelper extends HelperBase {
         isAlertPresent();
         click(By.linkText("home"));
     }
+
+    public void initContactModification() {
+        click(By.xpath("//table[@id='maintable']/tbody/tr[2]/td[8]/a/img"));
+    }
+
+    public void submitCoontactModification() {
+        click(By.name("update"));
+    }
 }
