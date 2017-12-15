@@ -29,5 +29,4 @@ public class ContactHelper extends HelperBase {
         isAlertPresent();
         click(By.linkText("home"));
     }
-
 }
