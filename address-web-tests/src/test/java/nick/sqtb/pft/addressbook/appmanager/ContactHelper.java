@@ -3,7 +3,8 @@ package nick.sqtb.pft.addressbook.appmanager;
 import nick.sqtb.pft.addressbook.model.CotactData;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.support.ui.Select;
+import org.testng.Assert;
 
 public class ContactHelper extends HelperBase {
 
@@ -11,13 +12,20 @@ public class ContactHelper extends HelperBase {
         super(wd);
     }
 
-    public void fillContactForm(CotactData cotactData) {
+    public void fillContactForm(CotactData cotactData, boolean creation) {
         type(By.name("firstname"),cotactData.getFirstname());
         type(By.name("lastname"),cotactData.getLastname());
         type(By.name("nickname"),cotactData.getNickname());
         type(By.name("address"),cotactData.getAddress());
         type(By.name("mobile"),cotactData.getMobile());
         type(By.name("email"),cotactData.getEmail());
+
+
+        if (creation) {
+            new Select(wd.findElement(By.name("new-group"))).selectByVisibleText(cotactData.getGroup());
+        } else {
+            Assert.assertFalse(isElementPresent(By.name("new-group")));
+        }
     }
 
     public void submitContactCreation() {
