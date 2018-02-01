@@ -7,16 +7,16 @@ public class CotactData {
     private final String address;
     private final String mobile;
     private final String email;
-    private  String group;
+//    private String group;
 
-    public CotactData(String firstname, String lastname, String nickname, String address, String mobile, String email, String group) {
+    public CotactData(String firstname, String lastname, String nickname, String address, String mobile, String email) {
         this.firstname = firstname;
         this.lastname = lastname;
         this.nickname = nickname;
         this.address = address;
         this.mobile = mobile;
         this.email = email;
-        this.group = group;
+//        this.group = group;
     }
 
     public String getFirstname() {
@@ -41,7 +41,7 @@ public class CotactData {
 
     public String getEmail() { return email; }
 
-    public String getGroup() {
-        return group;
-    }
+//    public String getGroup() {
+//        return group;
+//    }
 }

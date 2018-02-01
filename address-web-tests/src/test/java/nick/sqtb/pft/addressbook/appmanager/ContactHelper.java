@@ -12,7 +12,7 @@ public class ContactHelper extends HelperBase {
         super(wd);
     }
 
-    public void fillContactForm(CotactData cotactData, boolean creation) {
+    public void fillContactForm(CotactData cotactData) {
         type(By.name("firstname"),cotactData.getFirstname());
         type(By.name("lastname"),cotactData.getLastname());
         type(By.name("nickname"),cotactData.getNickname());
@@ -20,12 +20,12 @@ public class ContactHelper extends HelperBase {
         type(By.name("mobile"),cotactData.getMobile());
         type(By.name("email"),cotactData.getEmail());
 
-
-        if (creation) {
-            new Select(wd.findElement(By.name("new_group"))).selectByVisibleText(cotactData.getGroup());
-        } else {
-            Assert.assertFalse(isElementPresent(By.name("new_group")));
-        }
+//
+//        if (creation) {
+//            new Select(wd.findElement(By.name("new_group"))).selectByVisibleText(cotactData.getGroup());
+//        } else {
+//            Assert.assertFalse(isElementPresent(By.name("new_group")));
+//        }
     }
 
     public void submitContactCreation() {
@@ -46,4 +46,19 @@ public class ContactHelper extends HelperBase {
     public void submitCoontactModification() {
         click(By.name("update"));
     }
+
+    public void initContactCreation() {
+        click(By.linkText("add new"));
+    }
+
+    public void createContact(CotactData contact) {
+        initContactCreation();
+        fillContactForm(contact);
+        submitContactCreation();
+    }
+
+    public boolean isThereContact() {
+        return isElementPresent(By.name("selected[]"));
+    }
+
 }
