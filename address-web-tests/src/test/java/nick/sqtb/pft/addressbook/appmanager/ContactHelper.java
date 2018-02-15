@@ -3,8 +3,12 @@ package nick.sqtb.pft.addressbook.appmanager;
 import nick.sqtb.pft.addressbook.model.CotactData;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.Select;
 import org.testng.Assert;
+
+import java.util.ArrayList;
+import java.util.List;
 
 public class ContactHelper extends HelperBase {
 
@@ -55,10 +59,29 @@ public class ContactHelper extends HelperBase {
         initContactCreation();
         fillContactForm(contact);
         submitContactCreation();
+        returnToContactPage();
+    }
+
+    public void returnToContactPage() {
+        click(By.linkText("home page"));
     }
 
     public boolean isThereContact() {
         return isElementPresent(By.name("selected[]"));
     }
 
+    public List<CotactData> list() {
+
+        List<CotactData> contacts = new ArrayList<CotactData>();
+//        List<WebElement> elements = wd.findElements(By.tagName("entry"));
+        List<WebElement> elements = wd.findElements(By.cssSelector("tr.center"));
+
+        for (WebElement element : elements) {
+            String name = element.getText();
+            int id = Integer.parseInt(element.findElement(By.tagName("input")).getAttribute("value"));
+            CotactData contact = new CotactData(id, name, null, null, null, null, null);
+            contacts.add(contact);
+        }
+           return contacts;
+    }
 }

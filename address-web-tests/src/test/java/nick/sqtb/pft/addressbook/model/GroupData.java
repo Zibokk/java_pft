@@ -1,7 +1,6 @@
 package nick.sqtb.pft.addressbook.model;
 
 public class GroupData {
-
     private int id;
     private final String name;
     private final String header;
@@ -9,7 +8,6 @@ public class GroupData {
 
     public GroupData(String name, String header, String footer) {
         this.id = Integer.MAX_VALUE;
-
         this.name = name;
         this.header = header;
         this.footer = footer;
