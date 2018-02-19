@@ -1,9 +1,10 @@
 package nick.sqtb.pft.addressbook.tests;
 
 import nick.sqtb.pft.addressbook.model.GroupData;
-import org.testng.Assert;
+import nick.sqtb.pft.addressbook.model.Groups;
 import org.testng.annotations.Test;
-import java.util.Set;
+import static org.hamcrest.CoreMatchers.equalTo;
+import static org.hamcrest.MatcherAssert.assertThat;
 
 
 public class GroupCreationTests extends TestBase {
@@ -11,7 +12,9 @@ public class GroupCreationTests extends TestBase {
     @Test
     public void testGroupCreation() {
         app.goTo().groupPage();
-        Set<GroupData> before = app.group().all();
+
+        Groups before = (Groups) app.group().all();
+//        Set<GroupData> before = app.group().all();
 //        int before = app.group().getGroupCount();
 
 //        GroupData group = new GroupData("test2", null, null);
@@ -23,9 +26,10 @@ public class GroupCreationTests extends TestBase {
 //        app.group().submitGroupCreation();
 //        app.group().returnToGroupPage();
 
-        Set<GroupData> after = app.group().all();
+        Groups after = (Groups) app.group().all();
+//        Set<GroupData> after = app.group().all();
 //        int after = app.group().getGroupCount();
-        Assert.assertEquals(after.size(), before.size() + 1);
+        assertThat(after.size(), equalTo(before.size() + 1));
 
 //        int max = 0;
 //        for (GroupData g : after) {
@@ -34,14 +38,18 @@ public class GroupCreationTests extends TestBase {
 //            }
 //        }
 
-        group.withId(after.stream().mapToInt((g) -> g.getId()).max().getAsInt());
-        before.add(group);
+
+//        before.add(group);
 //        Comparator<? super GroupData> byId = Comparator.comparingInt(GroupData::getId);
 //        before.sort(byId);
 //        after.sort(byId);
 
 //        Assert.assertEquals(new HashSet<Object>(before), new HashSet<Object>(after));
-        Assert.assertEquals(before, after);
+//        Assert.assertEquals(before, after);
+
+//        Start to use library "Hamcrest"
+        assertThat(after, equalTo(
+                before.withAdded(group.withId(after.stream().mapToInt((g) -> g.getId()).max().getAsInt()))));
     }
 
 }

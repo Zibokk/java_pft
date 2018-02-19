@@ -1,13 +1,11 @@
 package nick.sqtb.pft.addressbook.appmanager;
 
 import nick.sqtb.pft.addressbook.model.GroupData;
+import nick.sqtb.pft.addressbook.model.Groups;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-
-import java.util.HashSet;
 import java.util.List;
-import java.util.Set;
 
 public class GroupHelper extends HelperBase {
 
@@ -102,8 +100,8 @@ public class GroupHelper extends HelperBase {
 //        return groups;
 //    }
 
-    public Set<GroupData> all() {
-        Set<GroupData> groups = new HashSet<GroupData>();
+    public Groups all() {
+        Groups groups = new Groups();
         List<WebElement> elements = wd.findElements(By.cssSelector("span.group"));
 
         for (WebElement element : elements) {
