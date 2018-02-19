@@ -4,8 +4,7 @@ import nick.sqtb.pft.addressbook.model.GroupData;
 import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
-
-import java.util.List;
+import java.util.Set;
 
 public class GroupDeletionTests extends TestBase {
 
@@ -26,15 +25,16 @@ public class GroupDeletionTests extends TestBase {
 //        }
 
 //        int before = app.group().getGroupCount();
-        List<GroupData> before = app.group().list();
-        int index = before.size() - 1;
-        app.group().delete(index);
+        Set<GroupData> before = app.group().all();
+        GroupData deleteGroup = before.iterator().next();
+//        int index = before.size() - 1;
+        app.group().delete(deleteGroup);
 //        int after = app.group().getGroupCount();
 //        Assert.assertEquals(after, before - 1);
-        List<GroupData> after = app.group().list();
-        Assert.assertEquals(after.size(), index);
+        Set<GroupData> after = app.group().all();
+        Assert.assertEquals(after.size(), before.size() - 1);
 
-        before.remove(index);
+        before.remove(deleteGroup);
         Assert.assertEquals(before, after);
     }
 
