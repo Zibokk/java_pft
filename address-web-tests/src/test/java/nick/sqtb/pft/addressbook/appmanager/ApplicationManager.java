@@ -28,7 +28,7 @@ public class ApplicationManager {
 //        String browser = BrowserType.CHROME;
 
         if (browser.equals(BrowserType.FIREFOX)) {
-            wd = new FirefoxDriver(new FirefoxOptions().setLegacy(true).setBinary("/Applications/Firefox 2.app/Contents/MacOS/firefox"));
+            wd = new FirefoxDriver(new FirefoxOptions().setLegacy(true).setBinary("/Applications/Firefox.app/Contents/MacOS/firefox"));
         } else if (Objects.equals(browser, BrowserType.CHROME)) {
             wd = new ChromeDriver();
         } else if (Objects.equals(browser, BrowserType.SAFARI)){
