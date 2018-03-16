@@ -2,7 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="67f7b3bd-a1e2-4464-a4f2-f5180208ebab" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/java-automation-qa/src/main/java/nick/sqtb/pft/framework/JavaForTesterBook/chap004myfirsttest/IntegerExamplesTest.java" afterPath="$PROJECT_DIR$/java-automation-qa/src/main/java/nick/sqtb/pft/framework/JavaForTesterBook/chap004myfirsttest/IntegerExamplesTest.java" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/java-automation-qa/out/production/classes/nick/sqtb/pft/framework/JavaForTesterBook/NickExecise.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/java-automation-qa/out/production/classes/nick/sqtb/pft/framework/JavaForTesterBook/PolindromeWord.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/java-automation-qa/out/production/classes/nick/sqtb/pft/framework/JavaForTesterBook/chap003myfirsttest/BookJavaForTesters.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/java-automation-qa/out/production/classes/nick/sqtb/pft/framework/JavaForTesterBook/chap004myfirsttest/IntegerExamplesTest.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/java-automation-qa/src/main/java/nick/sqtb/pft/framework/JavaForTesterBook/NickExecise.java" afterPath="$PROJECT_DIR$/java-automation-qa/src/main/java/nick/sqtb/pft/framework/JavaForTester/NickExecise.java" />
+      <change beforePath="$PROJECT_DIR$/java-automation-qa/src/main/java/nick/sqtb/pft/framework/JavaForTesterBook/PolindromeWord.java" afterPath="$PROJECT_DIR$/java-automation-qa/src/main/java/nick/sqtb/pft/framework/JavaForTester/PolindromeWord.java" />
+      <change beforePath="$PROJECT_DIR$/java-automation-qa/src/main/java/nick/sqtb/pft/framework/JavaForTesterBook/chap003myfirsttest/BookJavaForTesters.java" afterPath="$PROJECT_DIR$/java-automation-qa/src/main/java/JavaForTesterBook/chap003myfirsttest/BookJavaForTesters.java" />
+      <change beforePath="$PROJECT_DIR$/java-automation-qa/src/main/java/nick/sqtb/pft/framework/JavaForTesterBook/chap004myfirsttest/IntegerExamplesTest.java" afterPath="$PROJECT_DIR$/java-automation-qa/src/main/java/JavaForTesterBook/chap004myfirsttest/IntegerExamplesTest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/java-automation-qa/.gradle/" />
     <ignored path="$PROJECT_DIR$/java-automation-qa/build/" />
@@ -59,45 +67,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="BookJavaForTesters.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/java-automation-qa/src/main/java/nick/sqtb/pft/framework/JavaForTesterBook/chap003myfirsttest/BookJavaForTesters.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="50" />
-              <folding>
-                <element signature="e#259#260#0" expanded="true" />
-                <element signature="e#311#312#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="IntegerExamplesTest.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/java-automation-qa/src/main/java/nick/sqtb/pft/framework/JavaForTesterBook/chap004myfirsttest/IntegerExamplesTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="280">
-              <caret line="36" column="80" lean-forward="true" selection-start-line="36" selection-start-column="80" selection-end-line="36" selection-end-column="80" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PolindromeWord.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/java-automation-qa/src/main/java/nick/sqtb/pft/framework/JavaForTesterBook/PolindromeWord.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1005">
-              <caret line="125" column="44" lean-forward="true" selection-start-line="125" selection-start-column="44" selection-end-line="125" selection-end-column="44" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="ApplicationManager.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/address-web-tests/src/test/java/nick/sqtb/pft/addressbook/appmanager/ApplicationManager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="367">
+            <state relative-caret-position="324">
               <caret line="39" column="47" lean-forward="false" selection-start-line="39" selection-start-column="47" selection-end-line="39" selection-end-column="47" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -110,13 +83,61 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="BookJavaForTesters.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/java-automation-qa/src/main/java/JavaForTesterBook/chap003myfirsttest/BookJavaForTesters.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="34" lean-forward="false" selection-start-line="0" selection-start-column="34" selection-end-line="0" selection-end-column="34" />
+              <folding>
+                <element signature="e#204#205#0" expanded="true" />
+                <element signature="e#256#257#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="IntegerExamplesTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/java-automation-qa/src/main/java/JavaForTesterBook/chap004myfirsttest/IntegerExamplesTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="34" lean-forward="false" selection-start-line="0" selection-start-column="34" selection-end-line="0" selection-end-column="34" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TestAppEnvironmentTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/java-automation-qa/src/test/java/JavaForTesterBook/chap005testwithourownclasses/domainobject/example/TestAppEnvironmentTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="10" column="48" lean-forward="false" selection-start-line="10" selection-start-column="48" selection-end-line="10" selection-end-column="69" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TestAppEnv.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/java-automation-qa/src/main/java/JavaForTesterBook/chap005testwithourownclasses/domainobject/TestAppEnv.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="39" lean-forward="false" selection-start-line="4" selection-start-column="39" selection-end-line="4" selection-end-column="39" />
+              <folding>
+                <element signature="e#130#131#0" expanded="true" />
+                <element signature="e#176#177#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="TestNG Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -775,12 +796,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/java-automation-qa/src/main/java/MyFirstProgram1.java" />
-        <option value="$PROJECT_DIR$/java-automation-qa/src/main/java/MyFirstProgram.java" />
-        <option value="$PROJECT_DIR$/java-automation-qa/src/main/java/nick/sqtb/pft/java/autoation/qa/MyFirstProgram.java" />
-        <option value="$PROJECT_DIR$/java-automation-qa/src/main/java/nick/sqtb/pft/framework/Square.java" />
-        <option value="$PROJECT_DIR$/java-automation-qa/src/main/java/nick/sqtb/pft/framework/Rectangle.java" />
-        <option value="$PROJECT_DIR$/java-automation-qa/src/main/java/nick/sqtb/pft/framework/MyFirstProgram.java" />
         <option value="$PROJECT_DIR$/java-automation-qa/build.gradle" />
         <option value="$PROJECT_DIR$/java-automation-qa/src/main/java/nick/sqtb/pft/framework/Point.java" />
         <option value="$PROJECT_DIR$/java-automation-qa/src/main/java/nick/sqtb/pft/framework/HomeWorkPoint.java" />
@@ -826,6 +841,12 @@
         <option value="$PROJECT_DIR$/java-automation-qa/src/test/java/nick/sqtb/pft/framework/JavaForTesterBook/chap004myfirsttest/IntegerExamplesTestTest.java" />
         <option value="$PROJECT_DIR$/java-automation-qa/src/main/java/nick/sqtb/pft/framework/JavaForTesterBook/chap003myfirsttest/BookJavaForTesters.java" />
         <option value="$PROJECT_DIR$/java-automation-qa/src/main/java/nick/sqtb/pft/framework/JavaForTesterBook/chap004myfirsttest/IntegerExamplesTest.java" />
+        <option value="$PROJECT_DIR$/java-automation-qa/src/test/java/JavaForTesterBook/TestAppEnvironmentTest.java" />
+        <option value="$PROJECT_DIR$/java-automation-qa/src/test/java/JavaForTesterBook/chap005testwithourownclasses/domainobject/example/TestAppEnvironmentTest.java" />
+        <option value="$PROJECT_DIR$/java-automation-qa/src/main/java/JavaForTesterBook/chap005testwithourownclasses/domainobject/TestAppEnv.java" />
+        <option value="$PROJECT_DIR$/java-automation-qa/src/main/java/JavaForTesterBook/chap005testwithourownclasses/domainobject/chap003myfirsttest/BookJavaForTesters.java" />
+        <option value="$PROJECT_DIR$/java-automation-qa/src/main/java/JavaForTesterBook/chap005testwithourownclasses/domainobject/chap004myfirsttest/IntegerExamplesTest.java" />
+        <option value="$PROJECT_DIR$/java-automation-qa/src/main/java/JavaForTesterBookchap004myfirsttest/IntegerExamplesTest.java" />
       </list>
     </option>
   </component>
@@ -881,69 +902,6 @@
           <expand>
             <path>
               <item name="java_pft" type="b2602c69:ProjectViewProjectNode" />
-              <item name="address-web-tests" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-            <path>
-              <item name="java_pft" type="b2602c69:ProjectViewProjectNode" />
-              <item name="address-web-tests" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java_pft" type="b2602c69:ProjectViewProjectNode" />
-              <item name="address-web-tests" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-            <path>
-              <item name="java_pft" type="b2602c69:ProjectViewProjectNode" />
-              <item name="address-web-tests" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-            <path>
-              <item name="java_pft" type="b2602c69:ProjectViewProjectNode" />
-              <item name="address-web-tests" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java_pft" type="b2602c69:ProjectViewProjectNode" />
-              <item name="address-web-tests" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="addressbook" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java_pft" type="b2602c69:ProjectViewProjectNode" />
-              <item name="address-web-tests" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="addressbook" type="462c0819:PsiDirectoryNode" />
-              <item name="appmanager" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java_pft" type="b2602c69:ProjectViewProjectNode" />
-              <item name="address-web-tests" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="addressbook" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java_pft" type="b2602c69:ProjectViewProjectNode" />
-              <item name="address-web-tests" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="addressbook" type="462c0819:PsiDirectoryNode" />
-              <item name="tests" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java_pft" type="b2602c69:ProjectViewProjectNode" />
               <item name="java-automation-qa" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
             <path>
@@ -970,15 +928,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="framework" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java_pft" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java-automation-qa" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="framework" type="462c0819:PsiDirectoryNode" />
               <item name="JavaForTesterBook" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -987,7 +936,15 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="framework" type="462c0819:PsiDirectoryNode" />
+              <item name="JavaForTesterBook" type="462c0819:PsiDirectoryNode" />
+              <item name="chap003myfirsttest" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="java_pft" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java-automation-qa" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="JavaForTesterBook" type="462c0819:PsiDirectoryNode" />
               <item name="chap004myfirsttest" type="462c0819:PsiDirectoryNode" />
             </path>
@@ -995,6 +952,32 @@
               <item name="java_pft" type="b2602c69:ProjectViewProjectNode" />
               <item name="java-automation-qa" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="JavaForTesterBook" type="462c0819:PsiDirectoryNode" />
+              <item name="domainobject" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="java_pft" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java-automation-qa" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="framework" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="java_pft" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java-automation-qa" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="framework" type="462c0819:PsiDirectoryNode" />
+              <item name="JavaForTester" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="java_pft" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java-automation-qa" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
             <path>
@@ -1003,6 +986,23 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="java_pft" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java-automation-qa" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="JavaForTesterBook" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="java_pft" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java-automation-qa" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="JavaForTesterBook" type="462c0819:PsiDirectoryNode" />
+              <item name="example" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="java_pft" type="b2602c69:ProjectViewProjectNode" />
@@ -1025,7 +1025,7 @@
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="last_directory_selection" value="$PROJECT_DIR$/java-automation-qa/src/main/java/nick/sqtb/pft/framework/JavaForTesterBook" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/java-automation-qa/src/main/java/JavaForTesterBook" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="TestNG" />
@@ -1044,6 +1044,7 @@
       <recent name="nick.sqtb.pft.addressbook.appmanager" />
     </key>
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="JavaForTesterBook.chap005testwithourownclasses.domainobject" />
       <recent name="nick.sqtb.pft.addressbook.appmanager" />
       <recent name="nick.sqtb.pft.addressbook" />
     </key>
@@ -1060,7 +1061,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.IntegerExamplesTest.integerMaxAndMin">
+  <component name="RunManager" selected="TestNG.BookJavaForTesters">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="WIDTH" value="400" />
       <option name="HEIGHT" value="300" />
@@ -1070,11 +1071,11 @@
     <configuration name="PolindromeWord" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="nick.sqtb.pft.framework.JavaForTesterBook.*" />
+          <option name="PATTERN" value="nick.sqtb.pft.framework.JavaForTester.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="nick.sqtb.pft.framework.JavaForTesterBook.PolindromeWord" />
+      <option name="MAIN_CLASS_NAME" value="nick.sqtb.pft.framework.JavaForTester.PolindromeWord" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -1126,6 +1127,38 @@
       <option name="SHMEM_ADDRESS" value="javadebug" />
       <option name="HOST" value="localhost" />
       <option name="PORT" value="5005" />
+    </configuration>
+    <configuration name="BookJavaForTesters" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="JavaForTesterBook.chap005testwithourownclasses.domainobject.chap003myfirsttest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="java-automation-qa_main" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" value="JavaForTesterBook.chap005testwithourownclasses.domainobject.chap003myfirsttest" />
+      <option name="MAIN_CLASS_NAME" value="JavaForTesterBook.chap005testwithourownclasses.domainobject.chap003myfirsttest.BookJavaForTesters" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$/java-automation-qa" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
     </configuration>
     <configuration name="BookJavaForTesters.canAddTwoPlusTwo" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
@@ -1223,38 +1256,6 @@
       <properties />
       <listeners />
     </configuration>
-    <configuration name="PolindromeWord" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="nick.sqtb.pft.framework.JavaForTesterBook.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="java-automation-qa_main" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" value="nick.sqtb.pft.framework.JavaForTesterBook" />
-      <option name="MAIN_CLASS_NAME" value="nick.sqtb.pft.framework.JavaForTesterBook.PolindromeWord" />
-      <option name="METHOD_NAME" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$/java-automation-qa" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="ANNOTATION_TYPE" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
-      <envs />
-      <properties />
-      <listeners />
-    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -1301,19 +1302,19 @@
       <envs />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="TestNG.PolindromeWord" />
-      <item index="1" class="java.lang.String" itemvalue="Application.PolindromeWord" />
-      <item index="2" class="java.lang.String" itemvalue="TestNG.BookJavaForTesters.canAddTwoPlusTwo" />
-      <item index="3" class="java.lang.String" itemvalue="TestNG.IntegerExamplesTest" />
-      <item index="4" class="java.lang.String" itemvalue="TestNG.IntegerExamplesTest.integerMaxAndMin" />
+      <item index="0" class="java.lang.String" itemvalue="Application.PolindromeWord" />
+      <item index="1" class="java.lang.String" itemvalue="TestNG.BookJavaForTesters.canAddTwoPlusTwo" />
+      <item index="2" class="java.lang.String" itemvalue="TestNG.IntegerExamplesTest" />
+      <item index="3" class="java.lang.String" itemvalue="TestNG.IntegerExamplesTest.integerMaxAndMin" />
+      <item index="4" class="java.lang.String" itemvalue="TestNG.BookJavaForTesters" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="TestNG.IntegerExamplesTest.integerMaxAndMin" />
-        <item index="1" class="java.lang.String" itemvalue="TestNG.IntegerExamplesTest" />
-        <item index="2" class="java.lang.String" itemvalue="TestNG.BookJavaForTesters.canAddTwoPlusTwo" />
-        <item index="3" class="java.lang.String" itemvalue="Application.PolindromeWord" />
-        <item index="4" class="java.lang.String" itemvalue="TestNG.PolindromeWord" />
+        <item index="0" class="java.lang.String" itemvalue="TestNG.BookJavaForTesters" />
+        <item index="1" class="java.lang.String" itemvalue="TestNG.IntegerExamplesTest.integerMaxAndMin" />
+        <item index="2" class="java.lang.String" itemvalue="TestNG.IntegerExamplesTest" />
+        <item index="3" class="java.lang.String" itemvalue="TestNG.BookJavaForTesters.canAddTwoPlusTwo" />
+        <item index="4" class="java.lang.String" itemvalue="Application.PolindromeWord" />
       </list>
     </recent_temporary>
   </component>
@@ -1334,11 +1335,8 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="IntegerExamplesTest - 2018.03.15 at 13h 37m 19s.xml">
-      <configuration name="IntegerExamplesTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="IntegerExamplesTest - 2018.03.15 at 13h 38m 58s.xml">
-      <configuration name="IntegerExamplesTest" configurationId="TestNG" />
+    <history-entry file="BookJavaForTesters - 2018.03.15 at 22h 11m 52s.xml">
+      <configuration name="BookJavaForTesters" configurationId="TestNG" />
     </history-entry>
     <history-entry file="IntegerExamplesTest - 2018.03.15 at 14h 07m 21s.xml">
       <configuration name="IntegerExamplesTest" configurationId="TestNG" />
@@ -1364,6 +1362,9 @@
     <history-entry file="IntegerExamplesTest_integerMaxAndMin - 2018.03.15 at 20h 07m 00s.xml">
       <configuration name="IntegerExamplesTest.integerMaxAndMin" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="IntegerExamplesTest_integerMaxAndMin - 2018.03.15 at 21h 42m 02s.xml">
+      <configuration name="IntegerExamplesTest.integerMaxAndMin" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1385,15 +1386,15 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32790887" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32899022" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32899022" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32247558" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23289903" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22213247" sideWeight="0.49407783" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1558966" sideWeight="0.49407783" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33671743" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12520194" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.104200326" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24959612" sideWeight="0.49407783" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2489829" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -1421,36 +1422,13 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/src.zip!/java/util/Comparator.java" />
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/src.zip!/java/util/ArrayList.java" />
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.seleniumhq.selenium/selenium-api/3.8.1/473d7a8289d2dc7e9b0404ca276d63c1ef3a6cea/selenium-api-3.8.1-sources.jar!/org/openqa/selenium/WebElement.java" />
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/src.zip!/java/util/List.java" />
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/src.zip!/java/util/function/ToIntFunction.java" />
-    <entry file="file://$PROJECT_DIR$/java-automation-qa/src/test/java/nick/sqtb/pft/framework/EquationTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="585">
-          <caret line="40" column="46" lean-forward="false" selection-start-line="40" selection-start-column="46" selection-end-line="40" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/java-automation-qa/src/test/java/nick/sqtb/pft/framework/PointTests.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
           <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java-automation-qa/src/test/java/nick/sqtb/pft/framework/SquareTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="12" column="44" lean-forward="false" selection-start-line="12" selection-start-column="44" selection-end-line="12" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java-automation-qa/src/test/java/nick/sqtb/pft/framework/PrimeTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="9" column="38" lean-forward="false" selection-start-line="9" selection-start-column="38" selection-end-line="9" selection-end-column="38" />
         </state>
       </provider>
     </entry>
@@ -1668,14 +1646,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/java-automation-qa/src/main/java/nick/sqtb/pft/framework/JavaForTesterBook/NickExecise.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.testng/testng/6.13.1/a2b77dfee647263d2c1010215441bfa3e28c4b9c/testng-6.13.1-sources.jar!/org/testng/AssertJUnit.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="188">
@@ -1684,44 +1654,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/address-web-tests/src/test/java/nick/sqtb/pft/addressbook/appmanager/ApplicationManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="367">
-          <caret line="39" column="47" lean-forward="false" selection-start-line="39" selection-start-column="47" selection-end-line="39" selection-end-column="47" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#689#690#0" expanded="true" />
-            <element signature="e#727#728#0" expanded="true" />
-            <element signature="e#1592#1593#0" expanded="true" />
-            <element signature="e#1617#1618#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/java-automation-qa/src/test/java/nick/sqtb/pft/framework/JavaForTesterBook/chap004myfirsttest/IntegerExamplesTestTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java-automation-qa/src/main/java/nick/sqtb/pft/framework/JavaForTesterBook/PolindromeWord.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1005">
-          <caret line="125" column="44" lean-forward="true" selection-start-line="125" selection-start-column="44" selection-end-line="125" selection-end-column="44" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java-automation-qa/src/main/java/nick/sqtb/pft/framework/JavaForTesterBook/chap003myfirsttest/BookJavaForTesters.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="50" />
-          <folding>
-            <element signature="e#259#260#0" expanded="true" />
-            <element signature="e#311#312#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1741,12 +1678,96 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/java-automation-qa/src/main/java/nick/sqtb/pft/framework/JavaForTesterBook/chap004myfirsttest/IntegerExamplesTest.java">
+    <entry file="file://$PROJECT_DIR$/java-automation-qa/src/test/java/nick/sqtb/pft/framework/EquationTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="36" column="80" lean-forward="true" selection-start-line="36" selection-start-column="80" selection-end-line="36" selection-end-column="80" />
+        <state relative-caret-position="252">
+          <caret line="40" column="46" lean-forward="false" selection-start-line="40" selection-start-column="46" selection-end-line="40" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java-automation-qa/src/test/java/nick/sqtb/pft/framework/PrimeTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="9" column="38" lean-forward="false" selection-start-line="9" selection-start-column="38" selection-end-line="9" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java-automation-qa/src/test/java/nick/sqtb/pft/framework/SquareTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="12" column="44" lean-forward="false" selection-start-line="12" selection-start-column="44" selection-end-line="12" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/address-web-tests/src/test/java/nick/sqtb/pft/addressbook/appmanager/ApplicationManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="39" column="47" lean-forward="false" selection-start-line="39" selection-start-column="47" selection-end-line="39" selection-end-column="47" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#689#690#0" expanded="true" />
+            <element signature="e#727#728#0" expanded="true" />
+            <element signature="e#1592#1593#0" expanded="true" />
+            <element signature="e#1617#1618#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java-automation-qa/src/main/java/nick/sqtb/pft/framework/JavaForTester/PolindromeWord.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="125" column="44" lean-forward="true" selection-start-line="125" selection-start-column="44" selection-end-line="125" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java-automation-qa/src/main/java/nick/sqtb/pft/framework/JavaForTester/NickExecise.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java-automation-qa/src/test/java/JavaForTesterBook/chap005testwithourownclasses/domainobject/example/TestAppEnvironmentTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="10" column="48" lean-forward="false" selection-start-line="10" selection-start-column="48" selection-end-line="10" selection-end-column="69" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java-automation-qa/src/main/java/JavaForTesterBook/chap003myfirsttest/BookJavaForTesters.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="34" lean-forward="false" selection-start-line="0" selection-start-column="34" selection-end-line="0" selection-end-column="34" />
+          <folding>
+            <element signature="e#204#205#0" expanded="true" />
+            <element signature="e#256#257#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java-automation-qa/src/main/java/JavaForTesterBook/chap004myfirsttest/IntegerExamplesTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="34" lean-forward="false" selection-start-line="0" selection-start-column="34" selection-end-line="0" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java-automation-qa/src/main/java/JavaForTesterBook/chap005testwithourownclasses/domainobject/TestAppEnv.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="39" lean-forward="false" selection-start-line="4" selection-start-column="39" selection-end-line="4" selection-end-column="39" />
+          <folding>
+            <element signature="e#130#131#0" expanded="true" />
+            <element signature="e#176#177#0" expanded="true" />
           </folding>
         </state>
       </provider>

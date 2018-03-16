@@ -1,4 +1,4 @@
-package nick.sqtb.pft.framework.JavaForTesterBook;
+package nick.sqtb.pft.framework.JavaForTester;
 
 import org.testng.annotations.Test;
 

@@ -1,6 +1,4 @@
-package nick.sqtb.pft.framework.JavaForTesterBook;
-
-import sun.plugin.dom.css.Counter;
+package nick.sqtb.pft.framework.JavaForTester;
 
 public class NickExecise {
 
