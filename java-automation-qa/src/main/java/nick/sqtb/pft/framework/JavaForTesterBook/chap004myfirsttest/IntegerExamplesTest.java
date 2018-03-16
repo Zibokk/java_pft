@@ -28,4 +28,13 @@ public class IntegerExamplesTest {
         assertEquals("11 becomes b", "b", eleven.toHexString(eleven));
     }
 
+    @Test
+    public void integerMaxAndMin() {
+        Integer min = Integer.MIN_VALUE;
+        assertEquals("min value equals -2147483648", -2147483648, min.intValue());
+
+        Integer max = Integer.MAX_VALUE;
+        assertEquals("max value equals 2147483647", 2147483647, max.intValue());
+    }
+
 }
