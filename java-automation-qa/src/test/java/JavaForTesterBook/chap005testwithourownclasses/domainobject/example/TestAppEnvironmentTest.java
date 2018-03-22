@@ -17,6 +17,4 @@ public class TestAppEnvironmentTest {
         assertEquals("Just the port", "67", TestAppEnv.PORT);
     }
 
-
-
 }
